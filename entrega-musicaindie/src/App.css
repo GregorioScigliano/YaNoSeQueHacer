@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:ital,wght@0,200;0,400;1,200&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.miTitulo{
+  display: flex;
+  justify-content: center;
+  font-family: "Bungee Shade", cursive;
+    font-weight: bolder;
+    font-size: 5rem;
+    color: #000000;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    animation-name: titulo-pagina;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color: #E63B2E;
+}
+
+.miNav{
+  margin-top: -10px;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.miMain{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+@keyframes titulo-pagina {
+  0% {
+    color: black; }
+  40% {
+    color: #ffa500; }
+  80% {
+    color: #00ffff; }
+  100% {
+    color: black; } 
+}
